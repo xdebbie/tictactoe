@@ -17,6 +17,9 @@ curl http://127.0.0.1:5000/?board=+xo+xo+xo
 curl http://127.0.0.1:5000/?board=oooxx++++
 curl http://127.0.0.1:5000/?board=xx+ooo+++
 curl http://127.0.0.1:5000/?board=ox+ox+o++
+curl http://127.0.0.1:5000/?board=xxx++ooo+
+curl http://127.0.0.1:5000/?board=oo+xxx+++
+curl http://127.0.0.1:5000/?board=oox+x+x++
 # WIN strategy
 curl http://127.0.0.1:5000/?board=oo+xx++++
 curl http://127.0.0.1:5000/?board=+ooxx++++

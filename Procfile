@@ -1,1 +1,1 @@
-web: gunicorn app:tictactoe
+web: gunicorn tictactoe:app
