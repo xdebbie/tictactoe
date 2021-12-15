@@ -1,0 +1,61 @@
+# Check for board errors
+curl http://127.0.0.1:5000/?board=x
+curl http://127.0.0.1:5000/?board=badchar
+curl http://127.0.0.1:5000/?board=oooxxx+++
+curl http://127.0.0.1:5000/?board=ooo+++xxx
+curl http://127.0.0.1:5000/?board=xxxooo+++
+curl http://127.0.0.1:5000/?board=+++oooxxx
+curl http://127.0.0.1:5000/?board=xxx+++ooo
+curl http://127.0.0.1:5000/?board=+++xxxooo
+curl http://127.0.0.1:5000/?board=ox+ox+ox+
+curl http://127.0.0.1:5000/?board=o+xo+xo+x
+curl http://127.0.0.1:5000/?board=xo+xo+xo+
+curl http://127.0.0.1:5000/?board=+ox+ox+ox
+curl http://127.0.0.1:5000/?board=x+ox+ox+o
+curl http://127.0.0.1:5000/?board=+xo+xo+xo
+# VICTORY/DEFEAT boards
+curl http://127.0.0.1:5000/?board=oooxx++++
+curl http://127.0.0.1:5000/?board=xx+ooo+++
+curl http://127.0.0.1:5000/?board=ox+ox+o++
+# WIN strategy
+curl http://127.0.0.1:5000/?board=oo+xx++++
+curl http://127.0.0.1:5000/?board=+ooxx++++
+curl http://127.0.0.1:5000/?board=++o+ox+x+
+curl http://127.0.0.1:5000/?board=+++oo+xx+
+curl http://127.0.0.1:5000/?board=++++ooxx+
+curl http://127.0.0.1:5000/?board=+++++oxxo
+curl http://127.0.0.1:5000/?board=++++xxoo+
+curl http://127.0.0.1:5000/?board=++++xx+oo
+curl http://127.0.0.1:5000/?board=ox+ooxxx+
+# BLOCK strategy
+curl http://127.0.0.1:5000/?board=xx+o++o++
+curl http://127.0.0.1:5000/?board=x+++++oox
+curl http://127.0.0.1:5000/?board=+xx++o+o+
+curl http://127.0.0.1:5000/?board=++x+++oox
+curl http://127.0.0.1:5000/?board=+++xx+o+o
+curl http://127.0.0.1:5000/?board=+o++xx+o+
+curl http://127.0.0.1:5000/?board=+o+++x++x
+curl http://127.0.0.1:5000/?board=o+++++xx+
+# FORK strategy
+curl http://127.0.0.1:5000/?board=o+++x+x+o
+curl http://127.0.0.1:5000/?board=+o++xox++
+curl http://127.0.0.1:5000/?board=+xo+x+o++
+curl http://127.0.0.1:5000/?board=++xox++o+
+curl http://127.0.0.1:5000/?board=x+++xo+o+
+# BLOCK A FORK strategy
+curl http://127.0.0.1:5000/?board=x+++o+++x
+curl http://127.0.0.1:5000/?board=x+++o+++x
+curl http://127.0.0.1:5000/?board=++x+o+x++
+curl http://127.0.0.1:5000/?board=++x+x+o++
+# CENTER strategy
+curl http://127.0.0.1:5000/?board=+++++++++
+# OPPOSITE CORNER strategy
+curl http://127.0.0.1:5000/?board=x++++++++
+curl http://127.0.0.1:5000/?board=++x++++++
+curl http://127.0.0.1:5000/?board=++++++x++
+curl http://127.0.0.1:5000/?board=++++++++x
+# EMPTY CORNER strategy
+curl http://127.0.0.1:5000/?board=+x+oox+x+
+curl http://127.0.0.1:5000/?board=x+++o++++
+# EMPTY SIDE strategy
+curl http://127.0.0.1:5000/?board=o+xxoooxx
