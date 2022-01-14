@@ -36,6 +36,7 @@ To see the console logs with the visual 3x3 board and detailed messages, please 
 
 You can either send a `curl` request from the terminal or directly type the board on your browser, such as `http://127.0.0.1:5000/?board=oo+xx++++`.
 
+---
 ### What's next?
 The bot is not invincible, since I wrote the script using traditional strategies (https://en.wikipedia.org/wiki/Tic-tac-toe#Strategy) and not minimax.
 
