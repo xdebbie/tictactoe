@@ -34,7 +34,7 @@ So, for instance, if you send the board `curl http://127.0.0.1:5000/?board=oo+xx
 
 To see the console logs with the visual 3x3 board and detailed messages, please check the terminal on your virtual environment.
 
-You can either send a `curl` request from the terminal or directly type the board on your browser, such as `http://127.0.0.1:5000/?board=oo+xx++++`.
+You can either send a `curl` request from the terminal, directly type the board on your browser to access the running script on the localhost, such as `http://127.0.0.1:5000/?board=oo+xx++++`, or play using the deployed version on https://purple-cloud.herokuapp.com/?board=+++++++++.
 
 ---
 ### What's next?
